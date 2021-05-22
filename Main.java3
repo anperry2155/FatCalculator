@@ -1,0 +1,69 @@
+
+
+// Anthony Perry
+
+/*A combination of everything i have learned
+  in week one of cop 2006*/
+
+/* For the moment my integration project will be a body fat calculator,
+ because i have a good understanding of how to do it already.*/
+
+/* The 8 primitive data types are as follows:
+ *Byte data type is an 8-bit signed two's complement integer. 
+ * It has a minimum value of -128 and a maximum value of 127.
+ * byte data type useful in large arrays
+ * They can also be used in place of int.
+ * 
+ *Short: The short data type is a 16-bit signed two's complement integer. 
+ * It has a minimum value of -32,768 and a maximum value of 32,767
+ * use short to save memory in large arrays.
+ * 
+ *Int: data type is a 32-bit signed two's complement integer, 
+ * minimum value of -2^31 and a maximum value of 2^31-1. 
+ * 
+ *Long data type is a 64-bit two's complement integer. 
+ * The signed long has a minimum value of -2^63 and a maximum value of 2^63-1
+ * Use when int is not large enough.
+ * 
+ *Float data type is a single-precision 32-bit IEEE 754 floating point.
+ * use a float (instead of double) to save memory in large arrays.
+ * 
+ *Double data type is a double-precision 64-bit IEEE 754 floating point.
+ * used for decimals.
+ * 
+ *Boolean data type has only two possible values: true and false.
+ *
+ *Char data type is a single 16-bit Unicode character. 0 - 65,535.
+ */
+  
+ 
+
+public class Main {
+	
+  public static void main (String[] args) {
+	  /*scope means that a variable is only accessible within
+	     the method it was defined. 
+	    variables are containers for storind data values */
+	  
+	  System.out.println("Welcome to Anthony's Program.");
+	  boolean AnthonyIsLarge = false;
+	  // boolean statement^^
+	  double StartHere;
+	  StartHere = 0;
+	  //double variable
+	  String FirstOne;
+	  FirstOne = "0";
+	  // string variable
+	  int MyFat;
+	  MyFat = 0;
+	  // int variable
+	  final int TOBEGIN;
+	  TOBEGIN = 0;
+	  // ToBEGIN is a Constant and my final integer. Which means that it can not be changed. 
+	  // I have no idea what casting is, and I am glad it is optional for this sprint.
+	  // I understand what an escape sequence is, but I don't know how i would create one here.
+	  System.out.println("Anthony is large is a" + " " + AnthonyIsLarge + " " +  "statement.");
+	  
+	  
+  }
+}
